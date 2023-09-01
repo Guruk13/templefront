@@ -6,6 +6,7 @@
 	//https://www.section.io/engineering-education/creating-a-responsive-navigation-bar-using-tailwind-css-and-javascript/
 	let menuOpen = true;
 
+
 </script>
 
 <header>
@@ -16,7 +17,7 @@
 					<div>
 						<!-- Website Logo -->
 						<a href="#" class="flex items-center py-4 px-2">
-							<img src="logo.png" alt="Logo" class="h-8 w-8 mr-2" />
+							<img src={logo} alt="Logo" class="h-8 w-8 mr-2" />
 							<span class="font-semibold text-gray-1000 text-lg">Navigation</span>
 						</a>
 					</div>
@@ -42,19 +43,7 @@
 						>
 					</div>
 				</div>
-				<!-- Secondary Navbar items -->
-				<div class="hidden md:flex items-center space-x-3">
-					<a
-						href=""
-						class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-1000"
-						>Log In</a
-					>
-					<a
-						href=""
-						class="py-2 px-2 font-medium text-white bg-green-500 rounded hover:bg-green-400 transition duration-1000"
-						>Sign Up</a
-					>
-				</div>
+
 				<!-- Mobile menu button -->
 				<div class="md:hidden flex items-center">
 					<button class="outline-none mobile-menu-button" on:click|stopPropagation= "{()=>{menuOpen = !menuOpen}}">
