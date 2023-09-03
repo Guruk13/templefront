@@ -73,7 +73,7 @@
 				<li>
 					<a
 						href="#services"
-						class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-1000">Services</a
+						class="block text-templered text-sm px-2 py-4 hover:bg-green-500 transition duration-1000">Services</a
 					>
 				</li>
 				<li>

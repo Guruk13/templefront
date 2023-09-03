@@ -7,6 +7,8 @@
 
 <svelte:head>
 	<!-- @todo webgl-onequad should be imported here -->
+
+	<!-- @todo webgl-onequad should be imported here -->
 	<script id="shader-fs" type="x-shader/x-fragment">
         #ifdef GL_ES
         precision highp float;

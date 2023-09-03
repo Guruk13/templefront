@@ -16,8 +16,8 @@
 
 <style>
 	.filigrane {
-		background: rgb(0, 0, 0);
-		background: radial-gradient(circle, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 0.6656863428965336) 95%);
+		background: rgb(42, 42, 42);
+		background: radial-gradient(circle, rgb(42, 42, 42) 5%, rgba(0, 0, 0, 0.65) 95%);
 		position: relative;
 		z-index: 1;
 		min-height: 100%;
