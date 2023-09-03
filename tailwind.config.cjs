@@ -16,7 +16,9 @@ const config = {
 
 	},
 
-	plugins: []
+	plugins: [
+		require('tailwind-fontawesome')
+	]
 };
 
 module.exports = config;
