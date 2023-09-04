@@ -1,7 +1,5 @@
 <script>
-	import { page } from '$app/stores';
 	import logo from '$lib/images/logo.png';
-	import github from '$lib/images/github.svg';
 	import { toggle_class } from 'svelte/internal';
 	//https://www.section.io/engineering-education/creating-a-responsive-navigation-bar-using-tailwind-css-and-javascript/
 	let menuOpen = true;

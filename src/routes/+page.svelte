@@ -13,9 +13,9 @@
 		<DizzyBg />
 		<div class="filigrane">
 			<div class="flex">
-				<button class="icon-before icon-chevron-right icon-space-sm text-white">
+				<i class="lni lni-calculator text-white">
 					<!-- Label --> randommmmmmm
-				</button>
+				</i>
 			</div>
 			<img
 				src={logoCatchLess}
