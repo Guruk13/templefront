@@ -86,7 +86,7 @@
                     gtemp = vec2(-gtemp.y, gtemp.x); // Rotate
                     g += 0.5 * gtemp;
                     n2 += 0.5*psrdnoise(x*2.0+0.2*g, p, 0.1 * time, gtemp);
-                    const vec4 dark = vec4(0.16, 0.16, 0.16, 1.0);
+                    const vec4 dark = vec4(0.38, 0.38, 0.38, 1.0);
                     const vec4 light = vec4(0.42, 0.42, 0.42, 1.0); 
                     gl_FragColor = mix(dark, light, aastep(0.0,n2));
                 }

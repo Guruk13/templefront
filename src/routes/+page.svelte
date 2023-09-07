@@ -20,11 +20,10 @@
 			<img
 				src={logoCatchLess}
 				alt="Logo"
-				class=" object-contain mx-auto w-96 h-96 md:w-[700px] md:h-[700px]"/>
-
-
+				class=" object-contain mx-auto w-96 h-96 md:w-[700px] md:h-[700px]"
+			/>
 		</div>
-	</div>A list of Font Awesome icons and their CSS content values
+	</div>
 </section>
 
 <style>
