@@ -11,7 +11,20 @@ const config = {
 				'templebluelight': '#123273',
 				'templeblue': '#0F2F59',
 				'templestar': '#F2BC1B'
-			}
+			},
+			// that is animation class
+			animation: {
+				fade: 'fadeOut 2s ease-in-out',
+				fadeBgLong: 'fadeBg 2s ease-in-out',
+			},
+
+			// that is actual animation
+			keyframes: theme => ({
+				fadeOut: {
+					'0%': { opacity: '0', top : '-35px' },
+					'100%': { opacity: '1', top :'0' },
+				},
+			}),
 		}
 
 	},

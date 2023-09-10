@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>The Temple ⭐ Accueil</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
@@ -12,16 +12,26 @@
 	<div class="wrapper">
 		<DizzyBg />
 		<div class="filigrane">
-			<div class="flex">
-				<i class="lni lni-calculator text-white">
-					<!-- Label --> randommmmmmm
-				</i>
+			<div class="flex justify-center h-full flex-col">
+				<div class="md:h-5/6 h-4/6 mt-0">
+					<div class="h-2/3 m:h-5/6 flex justify-center">
+						<img
+							src={logoCatchLess}
+							alt="Logo"
+							class="animate-fade relative object-contain mx-auto w-96 h-96 md:w-[500px] md:h-[500px]"
+						/>
+					</div>
+
+					<!--social -->
+					<div class="h-1/6 md:h-1/6 flex justify-center text-white items-center ">ART <i class="lni lni-star-fill text-4xl mx-6"></i> SPORT <i class="lni lni-star-fill text-4xl mx-6"></i>CULTURE </div>
+				</div>
+				<div class="md:h-1/6 h-2/6 flex flex-col md:flex-row justify-around text-center">
+					<!--social -->
+					<div class="h-2/6 text-white"><i class="lni lni-instagram text-6xl"></i> of instagram and people</div>
+					<div class="h-2/6 text-white">of instagram and people</div>
+					<div class="h-2/6 text-white">of instagram and people</div>
+				</div>
 			</div>
-			<img
-				src={logoCatchLess}
-				alt="Logo"
-				class=" object-contain mx-auto w-96 h-96 md:w-[700px] md:h-[700px]"
-			/>
 		</div>
 	</div>
 </section>
@@ -39,7 +49,7 @@
 		background: radial-gradient(at center 35%, rgb(42, 42, 42) 30%, rgba(0, 0, 0, 0.65) 70%);
 
 		position: relative;
-		z-index: 1;
+
 		height: 100%;
 		width: 100%;
 	}
