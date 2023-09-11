@@ -23,7 +23,7 @@
 					</div>
 
 					<!--social -->
-					<div class="h-1/6 md:h-1/6 flex justify-center text-white items-center ">ART <i class="lni lni-star-fill text-4xl mx-6"></i> SPORT <i class="lni lni-star-fill text-4xl mx-6"></i>CULTURE </div>
+					<div class="h-1/6 md:h-1/6 flex justify-center text-white items-center font-temple text-4xl ">The temple <i class="lni lni-star-fill text-4xl mx-6"></i> SPORT <i class="lni lni-star-fill text-4xl mx-6"></i>CULTURE </div>
 				</div>
 				<div class="md:h-1/6 h-2/6 flex flex-col md:flex-row justify-around text-center">
 					<!--social -->
