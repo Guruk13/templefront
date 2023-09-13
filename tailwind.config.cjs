@@ -14,7 +14,7 @@ const config = {
 			},
 			// that is animation class
 			animation: {
-				fade: 'fadeOut 2s ease-in-out',
+				fade: 'fadeOut 4s ease-in-out',
 				fadeBgLong: 'fadeBg 2s ease-in-out',
 			},
 			fontFamily: {

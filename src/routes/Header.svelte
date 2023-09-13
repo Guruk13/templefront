@@ -1,5 +1,5 @@
 <script>
-	import logo from '$lib/images/logo.png';
+	import logoCatchLess from '$lib/images/logoGray.png';
 	import { toggle_class } from 'svelte/internal';
 	//https://www.section.io/engineering-education/creating-a-responsive-navigation-bar-using-tailwind-css-and-javascript/
 	let menuOpen = true;
@@ -15,13 +15,13 @@
 					<div>
 						<!-- Website Logo -->
 						<a href="#" class="flex items-center px-2">
-							<img src={logo} alt="Logo" class="w-8 mr-2" />
+							<img src={logoCatchLess} alt="Logo" class="w-12 mr-2" />
 							<span class="font-semibold text-gray-1000 text-lg">Navigation</span>
 						</a>
 					</div>
 					<!-- Primary Navbar items -->
 					<div class="hidden md:flex items-center space-x-1">
-						<a href="" class="px-2 text-green-500 border-b-4 border-green-500 font-semibold"
+						<a href="" class="px-2 text-green-500 border-b-4 cambbordersmall p-3 px-24 font-semibold"
 							>Home</a
 						>
 						<a

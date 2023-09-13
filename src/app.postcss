@@ -2,14 +2,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @font-face {
-    font-family: Skate;
-    src: url("./lib/fonts/skate.otf") format("opentype");
+  font-family: Skate;
+  src: url("./lib/fonts/skate.otf") format("opentype");
 
+}
+
+@font-face {
+  font-family: Sucrose;
+  src: url("./lib/fonts/SucroseBoldTwoDemo-BnmV.otf") format("opentype");
+}
+
+
+
+@layer components {
+  .cambborder {
+    border-image-slice: 30 30 30 30;
+    border-image-width: 20px 20px 20px 20px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url('./lib/borderCamb.png');
   }
 
-  @font-face {
-    font-family: Sucrose;
-    src: url("./lib/fonts/SucroseBoldTwoDemo-BnmV.otf") format("opentype");
+  .cambbordersmall {
+    border-image-slice: 30 30 30 30;
+    border-image-width: 5px 5px 5px 5px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url('./lib/borderCamb.png');
   }
+}
