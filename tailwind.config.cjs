@@ -18,10 +18,8 @@ const config = {
 				fadeBgLong: 'fadeBg 2s ease-in-out',
 			},
 			fontFamily: {
-				temple: "Skate",
-			},
-			fontFamily: {
-				vi: "Sucrose",
+				templeslim: "OleoRegular",
+				templeband: "GalaxyForce"
 			},
 
 			// that is actual animation

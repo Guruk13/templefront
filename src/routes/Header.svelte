@@ -3,8 +3,6 @@
 	import { toggle_class } from 'svelte/internal';
 	//https://www.section.io/engineering-education/creating-a-responsive-navigation-bar-using-tailwind-css-and-javascript/
 	let menuOpen = true;
-
-
 </script>
 
 <header>
@@ -21,30 +19,44 @@
 					</div>
 					<!-- Primary Navbar items -->
 					<div class="hidden md:flex items-center space-x-1">
-						<a href="" class="px-2 text-green-500 border-b-4 cambbordersmall p-3 px-24 font-semibold"
-							>Home</a
+						<a
+							href=""
+							class="px-2 text-gray-500 font-semibold hover:border-b-cambbordersmall transition duration-1000"
+							>Le Sanctuaire
+						</a>
+
+						<a
+							href=""
+							class=" px-2 text-gray-500 font-semibold hover:text-templered transition duration-1000"
+							>Planning</a
+						>
+
+						<a
+							href=""
+							class=" px-2 text-gray-500 font-semibold hover:text-templered transition duration-1000"
+							>Events</a
 						>
 						<a
 							href=""
-							class=" px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-1000"
-							>Services</a
+							class="px-2 text-gray-500 font-semibold hover:text-templered transition duration-1000"
+							>Shop</a
 						>
 						<a
 							href=""
-							class="px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-1000"
-							>About</a
-						>
-						<a
-							href=""
-							class="px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-1000"
-							>Contact Us</a
+							class="px-2 text-gray-500 font-semibold hover:text-templered transition duration-1000"
+							>Contact us</a
 						>
 					</div>
 				</div>
 
 				<!-- Mobile menu button -->
 				<div class="md:hidden flex items-center">
-					<button class="outline-none mobile-menu-button" on:click|stopPropagation= "{()=>{menuOpen = !menuOpen}}">
+					<button
+						class="outline-none mobile-menu-button"
+						on:click|stopPropagation={() => {
+							menuOpen = !menuOpen;
+						}}
+					>
 						<svg
 							class=" w-6 h-6 text-gray-500 hover:text-green-500"
 							fill="none"
@@ -61,17 +73,16 @@
 			</div>
 		</div>
 		<!-- mobile menu -->
-		<div class:hidden="{menuOpen}" class="mobile-menu">
+		<div class:hidden={menuOpen} class="mobile-menu">
 			<ul class="">
 				<li class="active">
-					<a href="index.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold"
-						>Home</a
-					>
+					<a href="index.html" class="block text-sm px-2 py-4 text-white bg-green-500">Home</a>
 				</li>
 				<li>
 					<a
 						href="#services"
-						class="block text-templered text-sm px-2 py-4 hover:bg-green-500 transition duration-1000">Services</a
+						class="block text-templered text-sm px-2 py-4 hover:bg-green-500 transition duration-1000"
+						>Services</a
 					>
 				</li>
 				<li>
@@ -83,11 +94,11 @@
 				<li>
 					<a
 						href="#contact"
-						class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-1000">Contact Us</a
+						class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-1000"
+						>Contact Us</a
 					>
 				</li>
 			</ul>
 		</div>
 	</nav>
 </header>
-

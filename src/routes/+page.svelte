@@ -23,13 +23,13 @@
 					</div>
 
 					<!--social -->
-					<div class="h-1/6 md:h-1/6 flex justify-center text-white items-center font-temple text-4xl ">The temple <i class="lni lni-star-fill text-4xl mx-6"></i> SPORT <i class="lni lni-star-fill text-4xl mx-6"></i>CULTURE </div>
+					<div class="h-1/6 md:h-1/6 flex justify-center text-white items-center font-templeslim text-2xl md:text-4xl mx-6xl ">Sport<i class="lni lni-star-fill text-xl md:text-4xl mx-6"></i>Art<i class="lni lni-star-fill text-xl md:text-4xl mx-6"></i>Culture</div>
 				</div>
-				<div class="md:h-1/6 h-2/6 flex flex-col md:flex-row justify-around text-center">
+				<div class="md:h-1/6 h-2/6 flex flex-col md:flex-row justify-around text-center font-templeband  text-3xl xl:text-5xl">
 					<!--social -->
-					<div class="h-2/6 text-white"><i class="lni lni-instagram text-6xl"></i> of instagram and people</div>
-					<div class="h-2/6 text-white">of instagram and people</div>
-					<div class="h-2/6 text-white">of instagram and people</div>
+					<div class="h-2/6 text-white flex space-x-4 items-center justify-center"><i class="lni lni-instagram"></i><p> THETEMPLEBORDEAUX</p></div>
+					<div class="h-2/6 text-white flex space-x-4 items-center justify-center"><i class="lni lni-facebook"></i><p>FACEBOOK</p></div>
+					<div class="h-2/6 text-white flex space-x-4 items-center justify-center"><i class="lni lni-phone"></i><p>01 23 45 67 89</p></div>
 				</div>
 			</div>
 		</div>

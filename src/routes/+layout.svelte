@@ -1,18 +1,17 @@
 <script>
 	import '../app.postcss';
 	import Header from './Header.svelte';
+	import Footer from './Footer.svelte';
 </script>
 
 <div class="app">
 	<Header />
 
-	<main class="h-[97vh]">
+	<main class="h-[93vh]">
 		<slot />
 	</main>
 
-	<footer>
-		<p>random footer memories </p>
-	</footer>
+	<Footer/>
 </div>
 
 <style>
