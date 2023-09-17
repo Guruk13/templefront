@@ -10,7 +10,8 @@ const config = {
 				'templeredlight': '#D91448',
 				'templebluelight': '#123273',
 				'templeblue': '#0F2F59',
-				'templestar': '#F2BC1B'
+				'templestar': '#F2BC1B',
+				'templedark': '#606000' 
 			},
 			// that is animation class
 			animation: {

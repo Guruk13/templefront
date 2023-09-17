@@ -89,6 +89,7 @@
                     const vec4 dark = vec4(0.38, 0.38, 0.38, 1.0);
                     const vec4 light = vec4(0.42, 0.42, 0.42, 1.0); 
                     gl_FragColor = mix(dark, light, aastep(0.0,n2));
+                    //orange vec4(0.80, 0.51, 0.07, 1.0);
                 }
 	</script>
 

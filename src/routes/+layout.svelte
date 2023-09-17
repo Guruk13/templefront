@@ -7,8 +7,8 @@
 <div class="app">
 	<Header />
 
-	<main class="h-[93vh]">
-		<slot />
+	<main>
+		<slot/>
 	</main>
 
 	<Footer/>
