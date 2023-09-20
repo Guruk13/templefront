@@ -3,9 +3,9 @@
 	let title = 'OGRE BATTLE FIGHT 	';
 </script>
 
-<section class="relative bg-slate-500 flex h-[1200px] ">
+<section class="relative bg-slate-700 flex h-[1200px] ">
 	<div
-		class=" backdrop-brightness-50 text-white font-templeband text-[12em] leading-[0.7] break-all text-clip overflow-hidden w-[125%]"
+		class="  text-gray-600 font-templeband text-[12em] leading-[0.7] break-all text-clip overflow-hidden w-[125%]"
 	>
 		{title}{title}{title}{title}{title}{title}{title}{title}{title}{title}{title}{title}{title}{title}{title}{title}{title}{title}{title}
 	</div>
