@@ -11,7 +11,7 @@ const config = {
 				'templebluelight': '#123273',
 				'templeblue': '#0F2F59',
 				'templestar': '#F2BC1B',
-				'templedark': '#606000' 
+				'templedark': '#606000'
 			},
 			// that is animation class
 			animation: {
@@ -20,7 +20,11 @@ const config = {
 			},
 			fontFamily: {
 				templeslim: "OleoRegular",
-				templeband: "GalaxyForce"
+				templeband: "GalaxyForce",
+				templeevt: "IntroRust"
+			},
+			aspectRatio: {
+				'A1': '1 / 1.42',
 			},
 
 			// that is actual animation
