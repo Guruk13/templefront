@@ -21,7 +21,8 @@ const config = {
 			fontFamily: {
 				templeslim: "OleoRegular",
 				templeband: "GalaxyForce",
-				templeevt: "IntroRust"
+				templeevt: "IntroRust",
+				templescript: "Kaushan"
 			},
 			aspectRatio: {
 				'A1': '1 / 1.42',

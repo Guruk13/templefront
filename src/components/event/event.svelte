@@ -41,12 +41,15 @@
 						{title}
 					</h2>
 					<div class="grid grid-cols-1 lg:grid-cols-2 lg:grid-row-6 gap-8 m-8 h-full">
-						<div class="bg-red-300 row-span-6">
-							<p>
-								pesée au gramme près à 10h (pas de frite la veille svp)<br />
-								il y'aura beacoup de gens <br />
-								amenez des couca coula aussi
-							</p>
+						<div
+							class="bg-red-300 row-span-6 flex items-center justify-center text-center font-templescript text-1 flex-col"
+						>
+						<hr class="dark:bg-gray-700">
+							<p>Random BOINAME VS Perpetuous MYSTERIO</p>
+							
+							<p>il y'aura beacoup de gens</p>
+							<hr>
+							<p>amenez des couca coula aussi</p>
 						</div>
 
 						<div
@@ -58,7 +61,11 @@
 							<div class="grow flex items-center text-4xl"><p>19H-22h</p></div>
 						</div>
 
-						<div class="bg-red-300 row-span-2">Lire la suite</div>
+						<div
+							class="drop-shadow-2xl row-span-2 flex items-center justify-center font-templeslim text-6xl"
+						>
+							<button class="p-5 rounded-full btn bg-red-300">En savoir +</button>
+						</div>
 					</div>
 				</div>
 			</div>
