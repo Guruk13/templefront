@@ -22,7 +22,9 @@ const config = {
 				templeslim: "OleoRegular",
 				templeband: "GalaxyForce",
 				templeevt: "IntroRust",
-				templescript: "Kaushan"
+				templescript: "Kaushan",
+				firamed: "FiraSans-Medium",
+				firaext: "FiraSans-ExtraBold"
 			},
 			aspectRatio: {
 				'A1': '1 / 1.42',

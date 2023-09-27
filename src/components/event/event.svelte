@@ -20,12 +20,12 @@
 </script>
 
 <section class="relative bg-slate-700 flex h-[750px] max-h-[2000px]">
-	<div class=" text-gray-600 font-templeband text-[12em] leading-[0.7] w-full whitespace-nowrap">
+	<div class="absolute text-gray-600 font-templeband text-[12em] leading-[0.7] w-full whitespace-nowrap">
 		<div />
 		{#each superTitleArray as superTitle}
 			<div class="text-clip overflow-hidden">{superTitle}</div>{/each}
 	</div>
-	<div class="absolute w-full h-full">
+	<div class="relative w-full h-full">
 		<div class="flex w-full h-full items-center justify-center">
 			<div class="bg-slate-500 flex flex-col lg:flex-row">
 				<h2 class="font-templeevt bg-red-300 text-white w-full text-3xl lg:hidden">
@@ -42,14 +42,14 @@
 					</h2>
 					<div class="grid grid-cols-1 lg:grid-cols-2 lg:grid-row-6 gap-8 m-8 h-full">
 						<div
-							class="bg-red-300 row-span-6 flex items-center justify-center text-center font-templescript text-1 flex-col"
+							class="bg-red-300 row-span-6 flex items-center justify-center font-firamed text-center text-1 flex-col"
 						>
-						<hr class="dark:bg-gray-700">
 							<p>Random BOINAME VS Perpetuous MYSTERIO</p>
-							
+							<hr class="h-px w-[80%] my-8 border-0 bg-gray-700" />
 							<p>il y'aura beacoup de gens</p>
-							<hr>
+							<hr class="h-px w-[80%] my-8 border-0 bg-gray-700" />
 							<p>amenez des couca coula aussi</p>
+
 						</div>
 
 						<div
