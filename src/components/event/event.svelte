@@ -20,12 +20,15 @@
 </script>
 
 <section class="relative bg-slate-700 flex h-[750px] max-h-[2000px]">
-	<div class="absolute text-gray-600 font-templeband text-[12em] leading-[0.7] w-full whitespace-nowrap">
-		<div />
+	<div
+		class=" overflow-hidden text-gray-600 font-templeband text-[12em] leading-[0.7] w-full whitespace-nowrap"
+	>
+		
 		{#each superTitleArray as superTitle}
-			<div class="text-clip overflow-hidden">{superTitle}</div>{/each}
+			<div class="text-clip overflow-hidden">{superTitle}</div>
+			{/each}
 	</div>
-	<div class="relative w-full h-full">
+	<div class="absolute w-full h-full">
 		<div class="flex w-full h-full items-center justify-center">
 			<div class="bg-slate-500 flex flex-col lg:flex-row">
 				<h2 class="font-templeevt bg-red-300 text-white w-full text-3xl lg:hidden">
@@ -49,7 +52,6 @@
 							<p>il y'aura beacoup de gens</p>
 							<hr class="h-px w-[80%] my-8 border-0 bg-gray-700" />
 							<p>amenez des couca coula aussi</p>
-
 						</div>
 
 						<div
