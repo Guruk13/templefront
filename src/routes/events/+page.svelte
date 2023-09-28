@@ -11,6 +11,8 @@
 
 
 <Event></Event>
+<Event bgcolor={"slate"} color={"red"}></Event>
+<Event bgcolor={"indigo"} color={"yellow"}></Event>
 
 
 
