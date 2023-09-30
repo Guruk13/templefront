@@ -9,10 +9,10 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
+<Event bgcolor={"emerald"} color={"yellow"} colorValue={700} bgcolorValue={900} ></Event>
+<Event ></Event>
 
-<Event></Event>
-<Event bgcolor={"slate"} color={"red"}></Event>
-<Event bgcolor={"indigo"} color={"yellow"}></Event>
+
 
 
 

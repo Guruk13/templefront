@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config}*/
 const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
+	safelist: [
+		{
+			pattern: /bg-(red|yellow|emerald|gray|slate|blue|green|indigo|pink|orange|rose)-[0-9]+/
+		}
+	],
 
 	theme: {
 		extend: {
