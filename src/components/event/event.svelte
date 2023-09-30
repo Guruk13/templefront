@@ -17,9 +17,9 @@
 
 	import eventExampel from '$lib/images/exampleEvent.webp';
 	let title = ' GALA DE SEPTEMBRE ';
-	//]todo, insure different random begin line to unsure no sync ever happen
+	//@todo, insure different random begin line to unsure no sync ever happen
 	let superTitleArray: string[] = [];
-	for (let i = 0; i < 12; i++) {
+	for (let i = 0; i < 7; i++) {
 		let titlearray = title.split(' ');
 		let min = Math.ceil(0);
 		let max = Math.floor(titlearray.length);
@@ -33,14 +33,16 @@
 		let superTitle = composed + ' ' + title.repeat(3);
 		superTitleArray.push(superTitle);
 	}
+
+
 </script>
 
-<section class="relative bg-{bgcolor}-{bgcolorValue} flex h-[750px] max-h-[2000px]">
+<section class="relative bg-{bgcolor}-{bgcolorValue} flex h-auto">
 	<div
-		class=" overflow-hidden text-gray-{bgTextValuecolor} font-templeband text-[12em] leading-[0.7] w-full whitespace-nowrap"
+		class="h-full overflow-hidden text-gray-{bgTextValuecolor} font-templeband text-[12em] leading-[0.7] w-full whitespace-nowrap"
 	>
 		{#each superTitleArray as superTitle}
-			<div class="text-clip overflow-hidden">{superTitle}</div>
+			<div class="text-clip whitespace-nowrap overflow-hidden">{superTitle}</div>
 		{/each}
 	</div>
 	<div class="absolute w-full h-full">
