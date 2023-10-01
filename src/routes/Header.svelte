@@ -3,6 +3,10 @@
 	import { toggle_class } from 'svelte/internal';
 	//https://www.section.io/engineering-education/creating-a-responsive-navigation-bar-using-tailwind-css-and-javascript/
 	let menuOpen = true;
+
+	//github pages 
+	import { base } from '$app/paths';
+
 </script>
 
 <header>
@@ -12,7 +16,7 @@
 				<div class="flex space-x-7 h-[7vh] items-center">
 					<div>
 						<!-- Website Logo -->
-						<a href="/" class="flex items-center px-2">
+						<a href="{base}/" class="flex items-center px-2">
 							<img src={logoCatchLess} alt="Logo" class="w-12 mr-2" />
 							<span class="font-semibold text-gray-1000 text-lg">Navigation</span>
 						</a>
@@ -32,7 +36,7 @@
 						>
 
 						<a
-							href="/events"
+							href="{base}/events"
 							class=" px-2 text-gray-500 font-semibold hover:text-templered transition duration-1000"
 							>Events</a
 						>
