@@ -34,6 +34,10 @@ const config = {
 			aspectRatio: {
 				'A1': '1 / 1.42',
 			},
+			boxShadow: {
+				'3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+				'6xl': '0 65px 80px -30px rgba(0, 0, 0, 0.6)',
+			},
 
 			// that is actual animation
 			keyframes: theme => ({

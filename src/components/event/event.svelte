@@ -9,7 +9,8 @@
 		'Random BOINAME VS Perpetuous MYSTERIO',
 		"il y'aura beacoup de gens",
 
-		'amenez des couca coula aussi'
+		'amenez des couca coula aussi',
+		'pesée à 15H, (pas de frite à midi)'
 	];
 
 	//props
@@ -34,7 +35,9 @@
 	}
 </script>
 
-<section class="relative bg-{bgcolor}-{bgcolorValue} flex h-auto">
+<section
+	class="relative bg-{bgcolor}-{bgcolorValue} flex h-auto border-y-gray-800 border-x-0 border-4"
+>
 	<div
 		class="h-full overflow-hidden text-gray-{bgTextValuecolor} max-h-[1400px] lg:max-h-[900px] font-templeband text-[12em] leading-[0.7] w-full whitespace-nowrap"
 	>
@@ -44,8 +47,8 @@
 	</div>
 	<div class="absolute w-full h-full">
 		<div class="flex w-full h-full items-center justify-center">
-			<div class="bg-{bgcolor}-{bgcolorValue - 200}  flex flex-col lg:flex-row">
-				<h2 class="font-templeevt bg-{color}-{colorValue} text-white w-full text-3xl lg:hidden">
+			<div class="bg-{bgcolor}-{bgcolorValue - 200} flex flex-col lg:flex-row">
+				<h2 class="font-templeevt bg-{color}-{colorValue}  text-white w-full text-3xl lg:hidden">
 					{title}
 				</h2>
 				<img
@@ -74,7 +77,7 @@
 						<div
 							class="bg-{color}-{colorValue} row-span-5 text-xl flex flex-col font-templeevt items-center justify-center"
 						>
-							<div class="grow lg:grow-[4]  text-2xl lg:text-[8em] flex items-center">29</div>
+							<div class="grow lg:grow-[4] text-2xl lg:text-[8em] flex items-center">29</div>
 							<div class="grow flex items-center lg:text-5xl"><p>SEPTEMBRE</p></div>
 							<div class="grow flex items-center lg:text-4xl"><p>19H-22h</p></div>
 						</div>
@@ -82,7 +85,9 @@
 						<div
 							class="drop-shadow-2xl row-span-1 flex items-center justify-center font-templeslim text-3xl lg:text-6xl"
 						>
-							<button class="p-5 rounded-full btn bg-{color}-{colorValue}">En savoir +</button>
+							<button class="p-5 rounded-full btn bg-{color}-{colorValue} shadow-3xl"
+								>En savoir +</button
+							>
 						</div>
 					</div>
 				</div>
