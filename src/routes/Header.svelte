@@ -80,20 +80,20 @@
 				</li>
 				<li>
 					<a
-						href="#services"
+						href=""
 						class="block text-templered text-sm px-2 py-4 hover:bg-green-500 transition duration-1000"
 						>Services</a
 					>
 				</li>
 				<li>
 					<a
-						href="#about"
+						href=""
 						class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-1000">About</a
 					>
 				</li>
 				<li>
 					<a
-						href="#contact"
+						href=""
 						class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-1000"
 						>Contact Us</a
 					>
