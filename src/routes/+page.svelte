@@ -9,9 +9,9 @@
 </svelte:head>
 
 <section class="h-[93vh]">
-	<div class="wrapper">
+	<div class="wrapper bg-black">
 		<DizzyBg />
-		<div class="filigrane">
+		<div class="filigrane ">
 			<div class="flex justify-center h-full flex-col">
 				<div class="md:h-5/6 h-4/6 mt-0">
 					<div class="h-2/3 m:h-5/6 flex justify-center">
