@@ -8,16 +8,18 @@
 	export let featIn = [
 		'Random BOINAME VS Perpetuous MYSTERIO',
 		"il y'aura beacoup de gens",
-
-		'amenez des couca coula aussi',
-		'pesée à 15H, (pas de frite à midi)'
+		"amenez des couca coula aussi",
+		"pesée à 15H, (pas de frite à midi)"
 	];
 
 	//props
 
 	import eventExampel from '$lib/images/exampleEvent.webp';
-	let title = ' GALA DE SEPTEMBRE ';
+	let title = 'GALA DE SEPTEMBRE';
+	
 	//@todo, insure different random begin line to unsure no sync ever happen
+	//@note , what if there's only one word ? 
+
 	let superTitleArray: string[] = [];
 	for (let i = 0; i < 11; i++) {
 		let titlearray = title.split(' ');
@@ -25,7 +27,7 @@
 		let max = Math.floor(titlearray.length);
 		let startCut = Math.floor(Math.random() * (max - min) + min);
 		titlearray = titlearray.slice(startCut);
-		let composed = titlearray.reduce((x, y) => x + ' ' + y);
+		let composed = titlearray.reduce((x, y) => x + '\u00A0' + y)+'\u00A0';
 		min = Math.ceil(0);
 		max = Math.floor(composed.length);
 		startCut = Math.floor(Math.random() * (max - min) + min);
