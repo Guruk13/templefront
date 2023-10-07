@@ -1,5 +1,6 @@
 <script>
 	import DizzyBg from '../components/dizzyBg.svelte';
+	import PlanningTeaser from '../components/planning/planningTeaser.svelte';
 	import logoCatchLess from '../lib/images/logoCatchLess.png';
 </script>
 
@@ -35,6 +36,7 @@
 		</div>
 	</div>
 </section>
+<PlanningTeaser/>
 
 <style>
 	.wrapper {
