@@ -27,12 +27,12 @@
 		let max = Math.floor(titlearray.length);
 		let startCut = Math.floor(Math.random() * (max - min) + min);
 		titlearray = titlearray.slice(startCut);
-		let composed = titlearray.reduce((x, y) => x + '\u00A0' + y)+'\u00A0';
+		let composed = titlearray.reduce((x, y) => x + '\u00A0' + y);
 		min = Math.ceil(0);
 		max = Math.floor(composed.length);
 		startCut = Math.floor(Math.random() * (max - min) + min);
 		composed = composed.slice(startCut);
-		let superTitle = composed + ' ' + title.repeat(3);
+		let superTitle = composed + '\u00A0' + title.repeat(3);
 		superTitleArray.push(superTitle);
 	}
 </script>
