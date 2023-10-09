@@ -1,4 +1,6 @@
 <script lang="ts">
+
+
 	//props
 	export let bgcolor: string = 'slate';
 	export let bgcolorValue: number = 700;
