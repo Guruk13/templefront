@@ -20,13 +20,13 @@
 					<!-- Primary Navbar items -->
 					<div class="hidden md:flex items-center space-x-1">
 						<a
-							href=""
+							href="/sanctuary"
 							class="px-2 text-gray-500 font-semibold hover:border-b-cambbordersmall transition duration-1000"
 							>Le Sanctuaire
 						</a>
 
 						<a
-							href=""
+							href="/"
 							class=" px-2 text-gray-500 font-semibold hover:text-templered transition duration-1000"
 							>Planning</a
 						>
@@ -37,12 +37,12 @@
 							>Events</a
 						>
 						<a
-							href=""
+							href="/"
 							class="px-2 text-gray-500 font-semibold hover:text-templered transition duration-1000"
 							>Shop</a
 						>
 						<a
-							href=""
+							href="/"
 							class="px-2 text-gray-500 font-semibold hover:text-templered transition duration-1000"
 							>Contact us</a
 						>
@@ -80,20 +80,20 @@
 				</li>
 				<li>
 					<a
-						href=""
+						href="/"
 						class="block text-templered text-sm px-2 py-4 hover:bg-green-500 transition duration-1000"
 						>Services</a
 					>
 				</li>
 				<li>
 					<a
-						href=""
+						href="/"
 						class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-1000">About</a
 					>
 				</li>
 				<li>
 					<a
-						href=""
+						href="/"
 						class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-1000"
 						>Contact Us</a
 					>
