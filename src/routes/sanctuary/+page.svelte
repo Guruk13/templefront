@@ -1,6 +1,7 @@
 <script>
 	import DizzyBg from '../../components/dizzyBg.svelte';
-	import logoCatchLess from '../../lib/images/logoCatchLess.png';
+	import logoCatchLess from '../../lib/images/logoGrayRevert.png';
+	
 	import Event from '../../components/event/event.svelte';
 </script>
 

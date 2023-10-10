@@ -1,7 +1,7 @@
 <script>
 	import DizzyBg from '../components/dizzyBg.svelte';
 	import PlanningTeaser from '../components/planning/planningTeaser.svelte';
-	import logoCatchLess from '../lib/images/logoCatchLess.png';
+	import logoCatchLess from '../lib/images/logoGrayRevert.png';
 </script>
 
 <svelte:head>
@@ -56,7 +56,7 @@
 	}
 	.filigrane {
 		background: rgb(42, 42, 42);
-		background: radial-gradient(at center 35%, rgb(42, 42, 42) 30%, rgba(0, 0, 0, 0.65) 70%);
+		background: radial-gradient(at center 35%, rgb(42, 42, 42) 30%, rgba(0, 0, 0, 0.45) 70%);
 
 		position: relative;
 
