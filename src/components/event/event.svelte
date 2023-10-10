@@ -1,26 +1,32 @@
 <script lang="ts">
-
-
 	//props
-	export let bgcolor: string = 'slate';
-	export let bgcolorValue: number = 700;
-	export let color: string = 'red';
-	export let colorValue: number = 300;
-	export let bgTextValuecolor: number = 600;
-	export let featIn = [
+	let bgcolor: string = 'slate';
+	let bgcolorValue: number = 700;
+	let color: string = 'red';
+	let colorValue: number = 300;
+	let bgTextValuecolor: number = 600;
+	let featIn = [
 		'Random BOINAME VS Perpetuous MYSTERIO',
 		"il y'aura beacoup de gens",
-		"amenez des couca coula aussi",
-		"pesée à 15H, (pas de frite à midi)"
+		'amenez des couca coula aussi',
+		'pesée à 15H, (pas de frite à midi)'
 	];
 
-	//props
+	export let eventData;
+	console.log(eventData);
+
+	//consoom
 
 	import eventExampel from '$lib/images/exampleEvent.webp';
-	let title = 'GALA DE SEPTEMBRE';
+	let title = eventData.EventTitle.toUpperCase();
+	featIn = eventData.EventFeatured.split(',');
+	bgcolor = eventData.ColorPickers[0].color;
+	color = eventData.ColorPickers[1].color;
 	
+	console.log(eventData.ColorPickers[0].color);
+
 	//@todo, insure different random begin line to unsure no sync ever happen
-	//@note , what if there's only one word ? 
+	//@note , what if there's only one word ?
 
 	let superTitleArray: string[] = [];
 	for (let i = 0; i < 11; i++) {
@@ -29,7 +35,7 @@
 		let max = Math.floor(titlearray.length);
 		let startCut = Math.floor(Math.random() * (max - min) + min);
 		titlearray = titlearray.slice(startCut);
-		let composed = titlearray.reduce((x, y) => x + '\u00A0' + y);
+		let composed = titlearray.reduce((x: string, y: string) => x + '\u00A0' + y);
 		min = Math.ceil(0);
 		max = Math.floor(composed.length);
 		startCut = Math.floor(Math.random() * (max - min) + min);

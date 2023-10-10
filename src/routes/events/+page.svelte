@@ -1,11 +1,11 @@
 <script>
-	import DizzyBg from '../../components/dizzyBg.svelte';
-	import logoCatchLess from '../../lib/images/logoCatchLess.png';
+
 	import Event from '../../components/event/event.svelte';
+	//<Event bgcolor={"emerald"} color={"yellow"} colorValue={700} bgcolorValue={900} ></Event>
 
 	export let data;
-	console.log();
-	const events=data.body.data;
+	console.log(data);
+	const events =data.body.data;
 </script>
 
 <svelte:head>
@@ -14,9 +14,12 @@
 </svelte:head>
 
 
-<div>{data.body.data[0].attributes.EventTitle}</div>
-<Event bgcolor={"emerald"} color={"yellow"} colorValue={700} bgcolorValue={900} ></Event>
-<Event ></Event>
+
+
+{#each events as datumEvent}
+<Event eventData={datumEvent.attributes} ></Event>
+{/each}
+
 
 
 
