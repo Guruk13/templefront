@@ -1,4 +1,6 @@
 <script lang="ts">
+	//@todo base
+	let baseurl = 'http://localhost:1337'
 	//props
 	let bgcolor: string = 'slate';
 	let bgcolorValue: number = 700;
@@ -12,7 +14,7 @@
 		'pesée à 15H, (pas de frite à midi)'
 	];
 
-	export let eventData;
+	export let eventData:any;
 	console.log(eventData);
 
 	//consoom
@@ -22,6 +24,10 @@
 	featIn = eventData.EventFeatured.split(',');
 	bgcolor = eventData.ColorPickers[0].color;
 	color = eventData.ColorPickers[1].color;
+	colorValue = eventData.ColorPickers[1].ColorValue;
+	let posterUrl = eventData.EventPoster.data.attributes.url
+	console.log(posterUrl)
+	console.log(eventData.ColorPickers[1].ColorValue)
 	
 	console.log(eventData.ColorPickers[0].color);
 
@@ -62,7 +68,7 @@
 					{title}
 				</h2>
 				<img
-					src={eventExampel}
+					src={baseurl+posterUrl}
 					class=" min-w-[320px] w-[450px] lg:w-auto lg:h-[650px] aspect-A1"
 					alt=""
 				/>
@@ -93,9 +99,10 @@
 						</div>
 
 						<div
-							class="drop-shadow-2xl row-span-1 flex items-center justify-center font-templeslim text-3xl lg:text-6xl"
+							class="drop-shadow-2xl row-span-1 flex items-center  justify-center font-templeslim text-3xl lg:text-6xl"
 						>
-							<button class="p-5 rounded-full btn bg-{color}-{colorValue} shadow-3xl"
+						<div>
+							<button class="p-5 rounded-full btn bg-{color}-{colorValue} hover:bg-{color}-{colorValue + 100} hover:translate-y-2 hover:translate-x-2 shadow-3xl"
 								>En savoir +</button
 							>
 						</div>

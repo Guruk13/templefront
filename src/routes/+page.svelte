@@ -1,7 +1,7 @@
 <script>
 	import DizzyBg from '../components/dizzyBg.svelte';
 	import PlanningTeaser from '../components/planning/planningTeaser.svelte';
-	import logoCatchLess from '../lib/images/logoGrayRevert.png';
+	import logoCatchLess from '../lib/images/logo.png';
 </script>
 
 <svelte:head>
