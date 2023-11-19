@@ -11,9 +11,9 @@
 		class="py-12 bg-templeblue h-[1200px] flex flex-col lg:flex-row-reverse w-full lg:justify-around lg:w-[75vw]"
 	>
 		<div class=" flex items-center justify-center flex-col-reverse gap-10 mb-10">
-			<button
+			<a href="/planning"
 				class="p-5 rounded-full btn bg-blue-200  shadow-3xl  text-3xl lg:text-6xl font-templeslim drop-shadow-2xl"
-				> <span class="un">Planning</span></button
+				> <span class="un">Planning</span></a
 			>
 			<p class=" w-64 font-firamed text-white">
 				Beaucoup de cours en quantitité très variés avec beaucoup d'horrraires , viens taper dans le

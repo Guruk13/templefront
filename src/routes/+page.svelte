@@ -40,12 +40,6 @@
 
 
 
-
-
-
-
-
-
 <style>
 	.wrapper {
 		position: relative;

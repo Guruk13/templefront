@@ -18,8 +18,6 @@
 	console.log(eventData);
 
 	//consoom
-
-	import eventExampel from '$lib/images/exampleEvent.webp';
 	let title = eventData.EventTitle.toUpperCase();
 	featIn = eventData.EventFeatured.split(',');
 	bgcolor = eventData.ColorPickers[0].color;
