@@ -1,6 +1,7 @@
 <script>
 	import DizzyBg from '../components/dizzyBg.svelte';
 	import PlanningTeaser from '../components/planning/planningTeaser.svelte';
+	import ShopTeaser from '../components/planning/shopTeaser.svelte';
 	import logoCatchLess from '../lib/images/logoGrayRevert.png';
 </script>
 
@@ -37,7 +38,7 @@
 	</div>
 </section>
 <PlanningTeaser/>
-
+<ShopTeaser/>
 
 
 <style>
