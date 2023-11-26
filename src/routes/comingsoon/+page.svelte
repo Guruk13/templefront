@@ -36,10 +36,10 @@
 					class="md:h-1/6 h-2/6 flex flex-col md:flex-row justify-center  text-center font-templeband a align-middle text-white text-3xl xl:text-5xl"
 				>
 					<h2 class="place-self-center mr-10">Coming soon ...</h2>
-					<a
-						class="p-2 rounded-full btn bg-blue-200 shadow-3xl text-2xl lg:text-4xl font-templeslim drop-shadow-2xl" href="/"
-					>
-						<span class="un">Accueil</span></a>
+					<a class="place-self-center"
+						href="/"
+					>	<div class="p-5 rounded-full btn bg-blue-200 shadow-3xl text-2xl lg:text-4xl font-templeslim drop-shadow-2xl"  >
+						<span class="un">Accueil</span></div></a>
 				</div>
 			</div>
 		</div>
