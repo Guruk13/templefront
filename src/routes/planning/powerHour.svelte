@@ -14,7 +14,23 @@
 				<h2 class="text-8xl m-4">Hour</h2>
 			</div>
 		</div>
-
+		<div class="flex justify-center h-full flex-col col-span-5 row-span-2">
+			<div class="container mx-auto px-6">
+				<div
+					class="h-64 rounded-md overflow-hidden bg-cover bg-center"
+					style="background-image: url('{guile}')"
+				>
+					<div class="bg-gray-900 bg-opacity-50 flex items-center justify-end h-full">
+						<div class="px-10 max-w-xl">
+							
+							<p class="mt-2 text-gray-400 flex  bg-templered justify-center">
+								Medecne ball , exercices cardio et frappes au pao etc 
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 
 

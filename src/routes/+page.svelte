@@ -1,8 +1,9 @@
 <script>
 	import DizzyBg from '../components/dizzyBg.svelte';
 	import PlanningTeaser from '../components/planning/planningTeaser.svelte';
-	import ShopTeaser from '../components/planning/shopTeaser.svelte';
+	//import ShopTeaser from '../components/planning/shopTeaser.svelte';
 	import logoCatchLess from '../lib/images/logoGrayRevert.png';
+	export const prerender = true;
 </script>
 
 <svelte:head>
@@ -38,7 +39,7 @@
 	</div>
 </section>
 <PlanningTeaser/>
-<ShopTeaser/>
+
 
 
 <style>

@@ -2,7 +2,8 @@
 	import DizzyBg from '../../components/dizzyBg.svelte';
 	import logoCatchLess from '../../lib/images/logoGrayRevert.png';
 	
-	import Event from '../../components/event/eventTeaser.svelte';
+	//import Event from '../../components/event/eventTeaser.svelte';
+	export const prerender = true;
 </script>
 
 <svelte:head>

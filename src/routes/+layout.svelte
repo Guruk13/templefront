@@ -1,4 +1,6 @@
 <script>
+	// This can be false if you're using a fallback (i.e. SPA mode)
+	export const prerender = true;
 	import '../app.postcss';
 	import Header from './Header.svelte';
 	import Footer from './Footer.svelte';
@@ -8,10 +10,10 @@
 	<Header />
 
 	<main>
-		<slot/>
+		<slot />
 	</main>
 
-	<Footer/>
+	<Footer />
 </div>
 
 <style>

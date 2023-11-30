@@ -1,6 +1,7 @@
 <script>
 	import timetable from '../../lib/images/timetable.jpg';
 	import PowerHour from './powerHour.svelte';
+	export const prerender = true;
 </script>
 
 <div class="grid gap-4 mx-5 my-5">
