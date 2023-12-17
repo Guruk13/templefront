@@ -3,7 +3,6 @@
 	import PlanningTeaser from '../components/planning/planningTeaser.svelte';
 	//import ShopTeaser from '../components/planning/shopTeaser.svelte';
 	import logoCatchLess from '../lib/images/logoGrayRevert.png';
-	export const prerender = true;
 </script>
 
 <svelte:head>

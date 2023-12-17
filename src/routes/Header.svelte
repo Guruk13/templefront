@@ -26,7 +26,7 @@
 						</a>
 
 						<a
-							href="/"
+							href="/planning"
 							class=" px-2 text-gray-500 font-semibold hover:text-templered transition duration-1000"
 							>Planning</a
 						>

@@ -1,5 +1,4 @@
 <script>
-	export const prerender = true;
 	import EventTeaser from '../../components/event/eventTeaser.svelte';
 	//<Event bgcolor={"emerald"} color={"yellow"} colorValue={700} bgcolorValue={900} ></Event>
 	
