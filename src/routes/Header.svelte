@@ -76,7 +76,7 @@
 		<div class:hidden={menuOpen} class="mobile-menu">
 			<ul class="">
 				<li class="active">
-					<a href="index.html" class="block text-sm px-2 py-4 text-white bg-green-500">Home</a>
+					<a href="/" class="block text-sm px-2 py-4 text-white bg-green-500">Home</a>
 				</li>
 				<li>
 					<a

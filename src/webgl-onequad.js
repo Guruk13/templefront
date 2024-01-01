@@ -141,35 +141,5 @@ var startTime = 0;
 var runningTime = 0;
 var fpscounter;
 
-function animate() {
-    frames += 1;
-    var currentTime = new Date().getTime(); // Milliseconds
-    runningTime = currentTime - startTime;
-    var elapsedTime = currentTime - lastTime;
-    if (elapsedTime >= 1000.0) {
-        fps = frames * 1000 / elapsedTime;
-        frames = 0;
-        lastTime = currentTime;
-    }
-}
 
-function tick() {
-    requestAnimationFrame(tick);
-    animate();
-    drawScene();
-}
-
-function webGLStart() {
-    var canvases = document.querySelectorAll(".dizzy");
-    canvases.forEach(canvas => {
-        initGL(canvas);
-        initShaders();
-        initBuffers();
-        startTime = new Date().getTime();
-        gl.clearColor(0.0, 0.0, 0.0, 1.0);
-        gl.enable(gl.DEPTH_TEST);
-        tick();
-    });
-
-}
 
