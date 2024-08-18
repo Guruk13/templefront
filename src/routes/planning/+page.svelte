@@ -1,6 +1,6 @@
 <script>
 	import timetable from '../../lib/images/timetable.jpg';
-	import PowerHour from './powerHour.svelte';
+	import Course from './course.svelte';
 </script>
 
 <div class="grid gap-4 mx-5 my-5">
@@ -50,4 +50,4 @@
 		</div>
 	</div>
 </div>
-<PowerHour />
+<Course />

@@ -8,7 +8,7 @@
 
 <section class=" flex justify-center">
 	<div
-		class="py-12 bg-templeblue h-[1200px] flex flex-col lg:flex-row-reverse w-full lg:justify-around lg:w-[75vw]"
+		class="py-12 bg-templeblue h-[1300px] flex flex-col lg:flex-row-reverse w-full lg:justify-around lg:w-[75vw]"
 	>
 		<div class=" flex items-center justify-center flex-col-reverse gap-10 mb-10">
 			<a href="/planning"
@@ -22,7 +22,7 @@
 			</p>
 		</div>
 		<div class="">
-			<h2 class=" font-templeband text-center text-3xl uppercase bg-white">Entraine toi !</h2>
+			<h2 class=" font-templeband text-center text-3xl uppercase bg-white  lg:mb-0 mb-5">Entraine toi !</h2>
 			<div class="flex justify-around h-full flex-col">
 				<div class="flex justify-center h-full flex-col">
 					<div class="container mx-auto px-6">
@@ -33,7 +33,7 @@
 							<div class="bg-gray-900 bg-opacity-50 flex items-center justify-end h-full">
 								<div class="px-10 max-w-xl">
 									<h2 class="text-2xl text-white bg-black font-templeband  font-semibold flex justify-center">Tout combattants</h2>
-									<p class="mt-2 text-gray-400 flex justify-center">
+									<p class="mt-2 text-white flex justify-center">
 										Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore facere
 										provident molestias ipsam sint voluptatum pariatur.
 									</p>
@@ -52,7 +52,7 @@
 							<div class="bg-gray-900 bg-opacity-50 flex items-center justify-end h-full">
 								<div class="px-10 max-w-xl">
 									<h2 class="text-2xl text-black uppercase bg-yellow-300 font-semibold flex w-full font-firamed  justify-center">Kids</h2>
-									<p class="mt-2 text-gray-400 flex justify-center">
+									<p class="mt-2 text-white flex justify-center">
 										Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore facere
 										provident molestias ipsam sint voluptatum pariatur.
 									</p>
@@ -71,7 +71,7 @@
 							<div class="bg-gray-900 bg-opacity-50 flex items-center h-full">
 								<div class="px-10 max-w-xl">
 									<h2 class="text-2xl text-white w-full  bg-pink-300 font-semibold flex justify-center font-templeslim">Ladies</h2>
-									<p class="mt-2 text-gray-400 flex justify-center">
+									<p class="mt-2 text-white flex justify-center">
 										Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore facere
 										provident molestias ipsam sint voluptatum pariatur.
 									</p>
