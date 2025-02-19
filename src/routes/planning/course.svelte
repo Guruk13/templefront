@@ -28,8 +28,11 @@
 			<h2 class="text-2xl m2">Clinch</h2>
 			
 		</div>
-		<p class="m-5 text-white">Genou , côte, et projection, une recette simple.Genou , côte, et projection, une recette simple   côte, et projection, une recette simple côte, et projection, une recette simple côte, et projection, une recette simple.<br>
-			 côte, et projection, une recette simple côte, et projection, une recette simplecôte, et projection, une recette simple</p>
+		<p class="font-firamed text-white">
+			Beaucoup de cours en quantitité très variés avec beaucoup d'horrraires , viens taper dans le
+			sac, t'améliorer et tout tu va voir c'est bien , y'as aussi du sparing(gentil) et du corp à
+			corp en fin de séance , tu va voir c'est bien
+		</p>
 
 		<!-- 		<div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
 			

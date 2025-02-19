@@ -20,7 +20,7 @@
 					<!-- Primary Navbar items -->
 					<div class="hidden md:flex items-center space-x-1">
 						<a
-							href="/sanctuary"
+							href="/place"
 							class="px-2 text-gray-500 font-semibold hover:border-b-cambbordersmall transition duration-1000"
 							>Le Sanctuaire
 						</a>
